@@ -1,0 +1,18 @@
+# Unreal's own output.
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+# The kit project's Content: your maps and packs, until make_pak.py moves them into a level's plugin in Mods/.
+/Content/
+
+# build_pak.py copies these from the PteroSim it cooks for.
+/PteroSimLevelKit.uproject
+/Config/
+/Releases/
+
+# build_pak.py output.
+/out/
+
+__pycache__/
